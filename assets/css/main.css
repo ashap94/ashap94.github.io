@@ -580,9 +580,9 @@ header.nav.hide-menu {
 /* 4. Home Section Styles
  ----------------------------------- */
 
-#home {
+/* #home {
     background: url('../../images/home-bg.jpg') no-repeat fixed center center / cover;
-}
+} */
 
 #home .sec-overlay {
     background: rgba(0,0,0, .7);
