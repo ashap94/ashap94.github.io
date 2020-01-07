@@ -2115,17 +2115,31 @@ input, select, textarea {
 
 		.image .twxixtertube {
 			position: absolute;
-			top: 2.5em;
+			top: 0px;
 			left: 0px;
 			padding: 10px;
+			height: 100%;
+			cursor: pointer;
+			transition: transform .2s; /* Animation */
+		}
+
+		.image .twxixtertube:hover{
+			transform: scale(1.1);
 		}
 
 		.image .trivialand {
 			position: absolute;
-			top: 2em;
+			top: 0px;
 			left: 0px;
 			padding: 10px;
+			height: 100%;
+			cursor: pointer;
+			transition: transform .2s; /* Animation */
 		}	
+
+		.image .trivialand:hover{
+			transform: scale(1.1);
+		}
 
 		.image .solarpoint {
 			position: absolute;
@@ -2133,7 +2147,13 @@ input, select, textarea {
 			left: 0px;
 			padding: 10px;
 			height: 100%;
+			cursor: pointer;
+			transition: transform .2s; /* Animation */
 		}	
+
+		.image .solarpoint:hover{
+			transform: scale(1.1);
+		}
 
 		.image.left {
 			float: left;
