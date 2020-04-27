@@ -4127,15 +4127,6 @@ body.is-mobile.landing #footer {
   margin: 0px auto 1em;
 }
 
-/* #me {
-  position: absolute;
-  top: -53%;
-  left: -39%;
-  transform: rotate(90deg);
-  object-fit: contain;
-  width: 455px;
-} */
-
 #me {
   position: absolute;
   top: -56%;
